@@ -31,12 +31,23 @@
     <p>body를 쓰지 않은 문단</p>
     <h1>헤더1</h1>
     <fieldset>
-      <lengend>개인정보 입력</lengend>
-      <label for="name">이름</label>
-      <input type="text" id="name" name="name" required><br>
-
-      <label for="tel">전화번호</label>
-      <input type="tel" id="tel" name="tel" placeholder="전화번호 입력">
+      <table>
+        <legend>개인정보 입력</legend>
+        <tr>
+          <td>
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="tel">전화번호</label>
+            <input type="tel" id="tel" name="tel" placeholder="전화번호 입력">
+          </td>
+        </tr>
+      </table>
+      <button type="submit">제출</button>
+      <button type="reset">초기화</button>
     </fieldset>
   </siu>
 </html>
